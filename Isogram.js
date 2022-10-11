@@ -20,4 +20,4 @@ function isIsogram(str){
         if(str[i] === str[j])
           return false;
     return true;
-  }
+  } 
