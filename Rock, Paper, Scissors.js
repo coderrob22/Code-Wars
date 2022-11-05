@@ -17,3 +17,7 @@ const rps = (p1, p2) => {
       return 'Player 2 won!'
     }
   };
+
+or
+
+rps=(a,b)=>a==b?'Draw!':`Player ${/rp|ps|sr/.test(a[0]+b[0])?2:1} won!`;
