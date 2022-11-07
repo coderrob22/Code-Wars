@@ -1,0 +1,43 @@
+body{
+    width: 100%;
+    height: 100vh;
+   /* 
+    
+    background-image: url('IMG_0354.jpeg');
+    background-size: 60%;
+    background-repeat: no-repeat;
+    margin-left: 50%;
+   
+    background-color: pink;
+    background-position: 40% 0%;
+    */
+}
+#background{
+    background-image: url('IMG_0389 Medium.jpeg');
+    padding: 20px;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-position: 40% 0%;
+    background-size: 40%;
+    background-color: pink;
+}
+button{
+    background-color: rgb(87,87,82);
+  border: none;
+  color: rgb(246, 240, 240);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 26px;
+  margin: 4px 2px;
+  cursor: pointer;
+  float: right;
+  margin-top: 478px;
+  margin-right: 416px;
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}

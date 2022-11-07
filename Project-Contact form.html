@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="Project-Contact form.css" type="css/text">
+   <title>Project Registration Form</title>
+  </head>
+  <body>
+    <h1 id="title"> Contact Form</h1>
+    <p id="description">Please fill out the form below and I will get back to you within 48 hours.</p>
+    <main>
+    <form id="survey-form">
+      <div>
+        <label id="name-label">Name: </label><br>
+    <input id="name" required type="text" placeholder="Enter your name"/><br>
+        <label id="email-label"> Email: </label><br> 
+        <input id="email" required type="email" placeholder="johndoe@blah.com"/><br>
+        <label id="number-label"> Number: </label><br>
+        <input type="number" min=7 max=9 id="number" required  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="999-999-9999"/>
+      </div> 
+      <fieldset>
+        <label> How did you hear about me?
+        <select id="dropdown">
+          <option value="">Select option below</option>
+          <option value="1">Google search </option>
+          <option value="2">Github</option> 
+          <option value="3">LinkedIn</option>
+          <option value="4">Referral</option>
+        </select>
+        </label>
+      </fieldset>
+      <div>
+        <legend> Is this for a business or personal project? </legend>
+        <label class="rad">
+          <input type="radio" name="type" value="personal"> Personal
+        </label>  
+        <label class="rad">
+          <input type="radio" name="type" value="business"> Business
+        </label>
+      </div> 
+      <hr>
+      <div>
+        <legend>When is the best time to reach you?</legend>
+        <label>
+          <input type="checkbox" value="morn"> Morning
+        </label>
+        <label>
+          <input type="checkbox" value="noon"> Around noon
+        </label>
+        <label>
+          <input type="checkbox" value="evening"> Night
+        </label>
+      </div>  
+      <fieldset>
+        <textarea placeholder="Any additional comments"></textarea><br>
+      </fieldset> 
+      <label><input type="submit" id="submit" value="submit"/></label>
+    </form> 
+    </main> 
+  </body> 
+</html>

@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(210, 50, 120);
+    color: black;
+  }
+  h1, p{
+    text-align: center;
+  }
+  .rad{
+    margin: 40px;
+    padding: 2px;
+  }
+  #description{
+    font-family: tahoma;
+    font-size: 16px;  
+  }
+  #name-label, #number-label,
+  #email-label{
+  font-size: 16pxpx;
+  }
